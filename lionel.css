@@ -809,9 +809,10 @@ section {
   align-items: center;
 }
 
-.stats span {
+.stats span a {
   font-size: 18px;
   font-weight: 500;
+  color: #202124;
 }
 
 .stats button {
@@ -837,6 +838,10 @@ section {
   border-collapse: collapse;
 }
 
+.argentina-table a {
+  color: #202124;
+}
+
 .center {
   text-align: center;
   width: 50px;
@@ -858,7 +863,8 @@ section {
   justify-content: flex-start;
 }
 
-.argentina-table span {
+.argentina-table span a {
+  text-decoration: none;
   font-size: 14px;
 }
 
