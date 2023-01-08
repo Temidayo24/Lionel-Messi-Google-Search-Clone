@@ -783,6 +783,10 @@ section {
   justify-content: space-between;
 }
 
+.knowledge-feedback button:hover {
+  background-color: #F8F9FA;
+}
+
 .knowledge-feedback button {
   display: flex;
   align-items: center;
@@ -791,8 +795,16 @@ section {
   border-radius: 30px;
   border: 1px solid #dadce0;
   background-color: white;
+}
+
+.knowledge-feedback a {
   color: #4d5156;
-  font-size: 14px;
+   font-size: 14px;
+   text-decoration: none;
+}
+
+.knowledge-feedback a:hover {
+  text-decoration: none;
 }
 
 .knowledge-feedback img {
