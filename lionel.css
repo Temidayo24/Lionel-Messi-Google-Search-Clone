@@ -1122,6 +1122,10 @@ a.search1 {
   color: #202124;
 }
 
+.layout5 .search-link a:hover {
+  text-decoration: none;
+}
+
 .layout5 .feed-back a {
   color: #70757a;
   font-size: 12px;
