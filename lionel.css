@@ -47,19 +47,22 @@ header .partA .div2 form {
   border-radius: 24px;
   margin: 0 auto;
   padding: 10px 15px;
-  width: 225%;
+  width: 172%;
 }
 
 form input {
   outline: 0;
   width: 100%;
   border: 0;
+  height: 130%;
+  font-size: 16px;
+  padding-left: 5px;
 }
 
 form > div {
   display: flex;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.9em;
 }
 
 img.image-search-icon,
@@ -75,7 +78,7 @@ img.search {
 
 img.close-icon {
   width: 20px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 form span {
